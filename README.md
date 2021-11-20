@@ -14,4 +14,4 @@
 <p>- Nautilus Shell Block texture and concept by <a href="https://www.reddit.com/user/STARRYSOCK/">u/STARRYSOCK</a></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>License</strong></p>
-<p>Block Of&hellip; is licensed under MIT License, a free and open-source license. For more information about the license file please check the license file.</p>
+<p>Block Of&hellip; is licensed under MIT License, a free and open-source license. For more information about the license please check the license file.</p>
