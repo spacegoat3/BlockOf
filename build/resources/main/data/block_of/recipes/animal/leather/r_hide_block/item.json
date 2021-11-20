@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:r_hide_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_hide",
+    "count": 9
+  }
+}

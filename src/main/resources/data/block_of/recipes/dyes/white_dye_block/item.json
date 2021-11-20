@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:white_dye_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye",
+    "count": 9
+  }
+}

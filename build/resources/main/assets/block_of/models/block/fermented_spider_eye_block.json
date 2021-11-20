@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block_of:block/fermented_spider_eye_block"
+  }
+}

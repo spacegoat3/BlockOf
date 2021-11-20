@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:rotten_f_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 9
+  }
+}

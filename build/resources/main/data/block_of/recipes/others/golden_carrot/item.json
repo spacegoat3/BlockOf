@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:golden_carrot_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:golden_carrot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:glow_b_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glow_berries",
+    "count": 9
+  }
+}

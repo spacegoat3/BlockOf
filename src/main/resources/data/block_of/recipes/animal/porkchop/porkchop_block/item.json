@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:porkchop_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:porkchop",
+    "count": 9
+  }
+}

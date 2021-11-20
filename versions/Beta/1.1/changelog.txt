@@ -1,0 +1,24 @@
+Block Of... - Alpha [1.1]
+
+ADDED
+Gunpowder Block [Falling Block]
+Glow Berrie Block [Block]
+Magma Cream Block [Block]
+Paper Block [Block]
+
+CHANGES
+Sweet Berrie Block's sound changed from MOSS_BLOCK to FUNGUS
+Changed package name from "uzaykecisi" (my old username) to "spacegoat" (my new username).
+
+
+
+
+<pre>Block Of... - Alpha - 1.1<br /><br /><strong>ADDED</strong><br />Gunpowder Block
+- [Falling Block]<br />Glow Berrie Block - [Block]<br />Magma Cream Block - [Block]<br />Paper Block
+- [Block]<br /><br /><strong>CHANGES</strong><br />Sweet Berrie Block's sound changed from
+<a href="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5e/Moss_break1.ogg/revision
+/latest?cb=20210210191413">MOSS_BLOCK</a> to <a href="https://static.wikia.nocookie.net
+/minecraft_gamepedia/images/c/c6/Fungus_break1.ogg/revision/latest?cb=20200229051313">FUNGUS</a><br
+/>Changed package name from "uzaykecisi" (my old username) to "spacegoat" (my new username).</pre>
+
+

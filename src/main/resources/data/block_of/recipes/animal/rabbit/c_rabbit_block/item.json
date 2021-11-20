@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:c_rabbit_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_rabbit",
+    "count": 9
+  }
+}

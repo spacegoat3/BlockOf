@@ -1,0 +1,15 @@
+
+[WHAT IS THIS?]
+This folder contains a different version of textures that has no lines.
+Those lines in original textures represents tapes or ropes. but because some people may
+not like this addition, I decided to make a Resource Pack with different textures.
+
+[CAN I MAKE THIS MYSELF?]
+If you want to make a Resource Pack for the mod yourself, you can do and post it. I
+will be glad.
+
+[CAN I USE THOSE TEXTURES?]
+You can use this textures in every way you want, but please credit me if you are going
+to use them in a public project.
+
+Have fun :)

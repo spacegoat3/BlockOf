@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "block_of:porkchop_block"
+    },
+    "result": "block_of:c_porkchop_block",
+    "experience": 0.6,
+    "cookingtime": 1800
+}

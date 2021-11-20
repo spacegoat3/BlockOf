@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:r_foot_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_foot",
+    "count": 9
+  }
+}

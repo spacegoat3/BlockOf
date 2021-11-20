@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+       "item": "block_of:kelp_block"
+  },
+  "result": "minecraft:dried_kelp_block",
+  "experience": 0.6,
+  "cookingtime": 950
+}

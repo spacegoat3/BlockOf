@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "block_of:cod-block"
+    },
+    "result": "block_of:c_cod_block",
+    "experience": 0.7,
+    "cookingtime": 950
+}

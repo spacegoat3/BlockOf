@@ -1,0 +1,27 @@
+Block Of... - Beta[1.2]
+
+ADDED
+
+- Added support for "1.18-pre1".
+
+[BLOCKS]
+- Inksac Block
+- Glow Inksac Block
+- Golden Apple Block
+- Golden Carrot Block
+- Glistering Melon Slice Block
+- Sugar Block
+- Spider Eye Block
+- Nautilus Shell Block
+- Fermented Spider Eye Block
+- Egg Block
+
+- [Added blocks for all the dyes],
+Black Dye Block, Lime Dye Block, Light Blue Dye Block etc.
+
+CHANGES
+- Magma Cream and Glow Berrie Blocks now emit light.
+- Registration of some blocks changed to make them closer to their group.
+- Rotten Flesh, Chorus Fruit and Bone Blocks are now considered as "Others" type.
+- Author changed from UzayKecisi (my old username) to spacegoat (my new username)
+- "Plant Based" type blocks hardness changed to "1", except Sugar Cane and Kelp Blocks, they are still "0.5"

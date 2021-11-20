@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:glow_inksac_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glow_ink_sac",
+    "count": 9
+  }
+}

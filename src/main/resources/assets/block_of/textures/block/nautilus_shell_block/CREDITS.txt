@@ -1,0 +1,4 @@
+All textures for the Nautilus Shell Block are created by the Reddit user STARRYSOCK.
+You can use the textures in your projects but you must credit them.
+
+Texture and Concept Source: https://www.reddit.com/r/Minecraft/comments/no6xr3/i_tried_to_make_a_block_version_of_the_nautilus/

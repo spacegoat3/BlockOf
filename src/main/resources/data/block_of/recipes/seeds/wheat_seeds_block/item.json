@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "block_of:wheat_seeds_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wheat_seeds",
+    "count": 9
+  }
+}
