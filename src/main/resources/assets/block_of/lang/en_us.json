@@ -67,5 +67,11 @@
   "block.block_of.purple_dye_block": "Block of Purple Dye",
   "block.block_of.red_dye_block": "Block of Red Dye",
   "block.block_of.white_dye_block": "Block of White Dye",
-  "block.block_of.yellow_dye_block": "Block of Yellow Dye"
+  "block.block_of.yellow_dye_block": "Block of Yellow Dye",
+
+  "block.block_of.wheat_seeds_block": "Block of Wheat Seeds",
+  "block.block_of.pumpkin_seeds_block": "Block of Pumpkin Seeds",
+  "block.block_of.melon_seeds_block": "Block of Melon Seeds",
+  "block.block_of.beetroot_seeds_block": "Block of Beetroot Seeds",
+  "block.block_of.cocoa_beans_block": "Block of Cocoa Beans"
 }
