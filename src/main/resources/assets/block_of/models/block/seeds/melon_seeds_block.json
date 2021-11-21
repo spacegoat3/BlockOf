@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "block_of:block/seeds/melon_seeds_block"
-  }
-}
