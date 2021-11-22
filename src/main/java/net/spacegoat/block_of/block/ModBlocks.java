@@ -130,7 +130,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.5f)
                     .breakByHand(true).breakByTool(FabricToolTags.HOES, 0)
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
-                    .mapColor(MapColor.EMERALD_GREEN)));
+                    .mapColor(MapColor.LIME)));
     public static final Block SWEET_B_BLOCK = registerBlock("sweet_b_block",
             new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1)
                     .breakByHand(true).breakByTool(FabricToolTags.HOES, 0)
@@ -160,90 +160,96 @@ public class ModBlocks {
     public static final Block AMETHYST_S_BLOCK = registerBlock("amethyst_s_block",
             new Block(FabricBlockSettings.of(Material.AMETHYST).strength(1.6f)
                     .breakByHand(false).breakByTool(FabricToolTags.PICKAXES, 1)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .mapColor(MapColor.DARK_DULL_PINK)));
     public static final Block FLINT_BLOCK = registerBlock("flint_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4)
                     .breakByHand(false).breakByTool(FabricToolTags.PICKAXES, 0)
-                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)
+                    .mapColor(MapColor.BLACK)));
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(5).breakByHand(false)
                     .requiresTool().breakByTool(FabricToolTags.PICKAXES, 0)
-                    .sounds(BlockSoundGroup.STONE)));
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.TERRACOTTA_BLACK)));
 
     //OTHERS
     public static final FallingBlock GUNPOWDER_BLOCK = registerFallingBlock("gunpowder_block",
             new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByHand(true)
-                    .breakByTool(FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.GRASS)));
+                    .breakByTool(FabricToolTags.SHOVELS, 0)
+                    .sounds(BlockSoundGroup.GRASS).mapColor(MapColor.GRAY)));
     public static final Block PAPER_BLOCK = registerBlock("paper_block",
             new Block(FabricBlockSettings.of(Material.WOOL).strength(0.15f).breakByHand(true).sounds(
-                    BlockSoundGroup.BIG_DRIPLEAF)));
+                    BlockSoundGroup.BIG_DRIPLEAF).mapColor(MapColor.WHITE)));
     public static final Block BLOCK_OF_BONE = registerBlock("block_of_bone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3)
                     .breakByHand(false).requiresTool().breakByTool(FabricToolTags.PICKAXES, 0)
-                    .sounds(BlockSoundGroup.BONE)));
+                    .sounds(BlockSoundGroup.BONE).mapColor(MapColor.WHITE_GRAY)));
     public static final Block ROTTEN_F_BLOCK = registerBlock("rotten_f_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1)
                     .breakByHand(true).breakByTool(FabricToolTags.SHOVELS, 0)
-                    .sounds(BlockSoundGroup.SLIME)));
+                    .sounds(BlockSoundGroup.SLIME).mapColor(MapColor.DULL_RED)));
     public static final Block SPIDER_EYE_BLOCK = registerBlock("spider_eye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(1).breakByHand(true).sounds(
-                    BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS, 0)));
+                    BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS, 0)
+                    .mapColor(MapColor.DARK_RED)));
     public static final Block NAUTILUS_SHELL_BLOCK = registerBlock("nautilus_shell_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(7).breakByHand(true).sounds(
-                    BlockSoundGroup.BONE).breakByTool(FabricToolTags.PICKAXES).hardness(4)));
+                    BlockSoundGroup.BONE).breakByTool(FabricToolTags.PICKAXES).hardness(4)
+                    .mapColor(MapColor.PALE_YELLOW)));
     public static final Block FERMENTED_SPIDER_EYE_BLOCK = registerBlock("fermented_spider_eye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(1).breakByHand(true).sounds(
-                    BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS)));
+                    BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS)
+                    .mapColor(MapColor.DARK_RED)));
 
     //DYES
     public static final Block BLACK_DYE_BLOCK = registerBlock("black_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.BLACK)));
     public static final Block BLUE_DYE_BLOCK = registerBlock("blue_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true)
-                    .sounds(BlockSoundGroup.CANDLE)));
+                    .sounds(BlockSoundGroup.CANDLE).mapColor(DyeColor.BLUE)));
     public static final Block BROWN_DYE_BLOCK = registerBlock("brown_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.BROWN)));
     public static final Block CYAN_DYE_BLOCK = registerBlock("cyan_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.CYAN)));
     public static final Block GRAY_DYE_BLOCK = registerBlock("gray_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true)
-                    .sounds(BlockSoundGroup.CANDLE)));
+                    .sounds(BlockSoundGroup.CANDLE).mapColor(DyeColor.GRAY)));
     public static final Block GREEN_DYE_BLOCK = registerBlock("green_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.GREEN)));
     public static final Block LIGHT_BLUE_DYE_BLOCK = registerBlock("light_blue_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.LIGHT_BLUE)));
     public static final Block LIGHT_GRAY_DYE_BLOCK = registerBlock("light_gray_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.LIGHT_GRAY)));
     public static final Block LIME_DYE_BLOCK = registerBlock("lime_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.LIME)));
     public static final Block MAGENTA_DYE_BLOCK = registerBlock("magenta_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.MAGENTA)));
     public static final Block ORANGE_DYE_BLOCK = registerBlock("orange_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.ORANGE)));
     public static final Block PINK_DYE_BLOCK = registerBlock("pink_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.PINK)));
     public static final Block PURPLE_DYE_BLOCK = registerBlock("purple_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.PURPLE)));
     public static final Block RED_DYE_BLOCK = registerBlock("red_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.RED)));
     public static final Block WHITE_DYE_BLOCK = registerBlock("white_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.WHITE)));
     public static final Block YELLOW_DYE_BLOCK = registerBlock("yellow_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
-                    BlockSoundGroup.CANDLE)));
+                    BlockSoundGroup.CANDLE).mapColor(DyeColor.YELLOW)));
 
     //REGISTRIES
     private static Block registerBlock(String name, Block block){
