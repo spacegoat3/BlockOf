@@ -1,9 +1,10 @@
 {
+	"parent": "block/orientable_with_bottom",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block_of:block/seeds/wheat_seeds_block/side",
 		"1": "block_of:block/seeds/wheat_seeds_block/top",
-		"particle": "block_of:block/seeds/wheat_seeds_block/side"
+		"particle": "block_of:block/seeds/wheat_seeds_block/top"
 	},
 	"elements": [
 		{

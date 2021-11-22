@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/orientable_with_bottom",
   "textures": {
     "all": "block_of:block/seeds/cocoa_beans_block"
   }

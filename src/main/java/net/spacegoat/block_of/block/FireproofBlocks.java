@@ -30,7 +30,7 @@ public class FireproofBlocks {
     public static final Block GLISTERING_MELON_BLOCK = registerBlock("glistering_melon_block",
             new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(3).breakByHand(true)
                     .breakByTool(FabricToolTags.HOES, 0).sounds(BlockSoundGroup.WOOD)
-                    .mapColor(MapColor.PALE_YELLOW)));
+                    .mapColor(MapColor.YELLOW)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

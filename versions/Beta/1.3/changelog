@@ -13,10 +13,5 @@ Added support for Minecraft,
 - Magma Cream Block, Golden Apple Block, Golden Carrot Block, Glistering Melon Block (only the items)
 are now fireproof like Netherite items.
 
-[BLOCKS]
-- Wheat Seeds Block
-- Melon Seeds Block
-- Pumpkin Seeds Block
-- Beetroot Seeds Block
-- Cocoa Beans Block
+- Added "Map Color" for all blocks. Now their color in the maps are the same with their real color.
 
