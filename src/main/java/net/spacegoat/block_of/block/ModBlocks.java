@@ -170,7 +170,7 @@ public class ModBlocks {
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(5).breakByHand(false)
                     .requiresTool().breakByTool(FabricToolTags.PICKAXES, 0)
-                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.TERRACOTTA_BLACK)));
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.SPRUCE_BROWN)));
 
     //OTHERS
     public static final FallingBlock GUNPOWDER_BLOCK = registerFallingBlock("gunpowder_block",
@@ -250,6 +250,28 @@ public class ModBlocks {
     public static final Block YELLOW_DYE_BLOCK = registerBlock("yellow_dye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.YELLOW)));
+
+    //SEEDS
+    public static final Block WHEAT_SEEDS_BLOCK = registerBlock("wheat_seeds_block",
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+                    .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.GREEN).sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block MELON_SEEDS_BLOCK = registerBlock("melon_seeds_block",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(0.89f).breakByHand(true)
+                    .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.BROWN).sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block PUMPKIN_SEEDS_BLOCK = registerBlock("pumpkin_seeds_block",
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+                    .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.YELLOW).sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block BEETROOT_SEEDS_BLOCK = registerBlock("beetroot_seeds_block",
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+                    .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.PALE_YELLOW).sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block COCOA_BEANS_BLOCK = registerBlock("cocoa_beans_block",
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1).breakByHand(true)
+                    .breakByTool(FabricToolTags.HOES).mapColor(MapColor.BROWN).sounds
+                            (BlockSoundGroup.GRASS)));
 
     //REGISTRIES
     private static Block registerBlock(String name, Block block){

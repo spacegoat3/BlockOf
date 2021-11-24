@@ -18,7 +18,8 @@ public class FireproofBlocks {
     private static final Block MAGMA_C_BLOCK = registerBlock("magma_c_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).breakByHand(true).breakByTool(
                             FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.SLIME).hardness(3).strength(0.5f)
-                    .luminance(12).mapColor(MapColor.ORANGE).mapColor(MapColor.ORANGE)));
+                    .luminance(12).mapColor(MapColor.ORANGE).mapColor(MapColor.ORANGE)
+                    .jumpVelocityMultiplier(3)));
     public static final Block GOLDEN_APPLE_BLOCK = registerBlock("golden_apple_block",
             new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(3).breakByHand(true)
                     .breakByTool(FabricToolTags.HOES, 0).sounds(BlockSoundGroup.FUNGUS)

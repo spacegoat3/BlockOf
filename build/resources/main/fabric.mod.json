@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "block_of",
-  "version": "beta-1.3",
+  "version": "1.0.0",
 
   "name": "Block Of...",
-  "description": "Adds new blocks to the game that is similar to Dried Kelp Block.",
+  "description": "Adds new blocks to the game that is similar to Dried Kelp Block from Vanilla Minecraft.",
   "authors": [
     "spacegoat"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/block-of",
-    "sources": "https://github.com/spacegoat3/BlockOf"
+    "sources": "https://github.com/spacegoat3/BlockOf",
+    "issues": "https://github.com/spacegoat3/BlockOf/issues"
   },
 
   "license": "MIT",
@@ -22,18 +23,10 @@
       "net.spacegoat.block_of.BlockOf"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": ["1.17","1.17.1","1.18-alpha.1","1.18-alpha.2","1.18-alpha.3","1,18-alpha.4",
-    "1.18-alpha.5","1.18"],
+    "minecraft": ">=1.17",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

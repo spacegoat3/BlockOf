@@ -11,7 +11,7 @@
 <p>Block Of is a mod built for the <a href="https://fabricmc.net/">Fabric Mod Loader</a>. It also requires <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API</a> to be installed.</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>Credits</strong></p>
-<p>- Nautilus Shell Block texture and concept by <a href="https://www.reddit.com/user/STARRYSOCK/">u/STARRYSOCK</a></p>
+<p>- Nautilus Shell Block's texture and concept by <a href="https://www.reddit.com/user/STARRYSOCK/">u/STARRYSOCK</a></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>License</strong></p>
-<p>Block Of&hellip; is licensed under MIT License, a free and open-source license. For more information about the license please check the license file.</p>
+<p>Block Of&hellip; is licensed under MIT License, a free and open-source license. For more information about it please check the license file.</p>
