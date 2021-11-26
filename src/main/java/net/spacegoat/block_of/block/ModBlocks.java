@@ -270,8 +270,8 @@ public class ModBlocks {
 
     public static final Block COCOA_BEANS_BLOCK = registerBlock("cocoa_beans_block",
             new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1).breakByHand(true)
-                    .breakByTool(FabricToolTags.HOES).mapColor(MapColor.BROWN).sounds
-                            (BlockSoundGroup.GRASS)));
+                    .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.BROWN).sounds
+                            (BlockSoundGroup.GRAVEL)));
 
     //REGISTRIES
     private static Block registerBlock(String name, Block block){

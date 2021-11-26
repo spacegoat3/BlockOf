@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2021-11-22 17:49:57 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2021-11-22 17:49:20 -0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}
