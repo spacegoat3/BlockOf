@@ -3,10 +3,7 @@ package net.spacegoat.block_of.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
-import net.minecraft.block.Block;
-import net.minecraft.block.FallingBlock;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -101,6 +98,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.WOOL).strength(3).breakByHand(true).sounds
                     (BlockSoundGroup.CORAL).breakByTool(FabricToolTags.PICKAXES).hardness(2)
                     .mapColor(DyeColor.WHITE)));
+    public static final Block SCUTE_BLOCK = registerBlock("scute_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5).breakByHand(false)
+                    .breakByTool(FabricToolTags.PICKAXES, 0).sounds(BlockSoundGroup.BONE)));
 
     //PLANT BASED
     public static final Block APPLE_BLOCK = registerBlock("apple_block",
@@ -203,73 +203,69 @@ public class ModBlocks {
 
     //DYES
     public static final Block BLACK_DYE_BLOCK = registerBlock("black_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.BLACK)));
     public static final Block BLUE_DYE_BLOCK = registerBlock("blue_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true)
                     .sounds(BlockSoundGroup.CANDLE).mapColor(DyeColor.BLUE)));
     public static final Block BROWN_DYE_BLOCK = registerBlock("brown_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.BROWN)));
     public static final Block CYAN_DYE_BLOCK = registerBlock("cyan_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.CYAN)));
     public static final Block GRAY_DYE_BLOCK = registerBlock("gray_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true)
                     .sounds(BlockSoundGroup.CANDLE).mapColor(DyeColor.GRAY)));
     public static final Block GREEN_DYE_BLOCK = registerBlock("green_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.GREEN)));
     public static final Block LIGHT_BLUE_DYE_BLOCK = registerBlock("light_blue_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.LIGHT_BLUE)));
     public static final Block LIGHT_GRAY_DYE_BLOCK = registerBlock("light_gray_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.LIGHT_GRAY)));
     public static final Block LIME_DYE_BLOCK = registerBlock("lime_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.LIME)));
     public static final Block MAGENTA_DYE_BLOCK = registerBlock("magenta_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.MAGENTA)));
     public static final Block ORANGE_DYE_BLOCK = registerBlock("orange_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.ORANGE)));
     public static final Block PINK_DYE_BLOCK = registerBlock("pink_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.PINK)));
     public static final Block PURPLE_DYE_BLOCK = registerBlock("purple_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.PURPLE)));
     public static final Block RED_DYE_BLOCK = registerBlock("red_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.RED)));
     public static final Block WHITE_DYE_BLOCK = registerBlock("white_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.WHITE)));
     public static final Block YELLOW_DYE_BLOCK = registerBlock("yellow_dye_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.13f).breakByHand(true).sounds(
+            new Block(FabricBlockSettings.of(Material.SPONGE).strength(0.99f).breakByHand(true).sounds(
                     BlockSoundGroup.CANDLE).mapColor(DyeColor.YELLOW)));
 
     //SEEDS
     public static final Block WHEAT_SEEDS_BLOCK = registerBlock("wheat_seeds_block",
-            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.9f).breakByHand(true)
                     .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.GREEN).sounds(BlockSoundGroup.GRAVEL)));
-
     public static final Block MELON_SEEDS_BLOCK = registerBlock("melon_seeds_block",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(0.89f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.9f).breakByHand(true)
                     .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.BROWN).sounds(BlockSoundGroup.GRAVEL)));
-
     public static final Block PUMPKIN_SEEDS_BLOCK = registerBlock("pumpkin_seeds_block",
-            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.9f).breakByHand(true)
                     .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.YELLOW).sounds(BlockSoundGroup.GRAVEL)));
-
     public static final Block BEETROOT_SEEDS_BLOCK = registerBlock("beetroot_seeds_block",
-            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.89f).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.9f).breakByHand(true)
                     .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.PALE_YELLOW).sounds(BlockSoundGroup.GRAVEL)));
-
     public static final Block COCOA_BEANS_BLOCK = registerBlock("cocoa_beans_block",
-            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1).breakByHand(true)
+            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.9f).breakByHand(true)
                     .breakByTool(FabricToolTags.SHEARS).mapColor(MapColor.BROWN).sounds
                             (BlockSoundGroup.GRAVEL)));
 

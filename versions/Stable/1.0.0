@@ -1,0 +1,15 @@
+Block Of - 1.0.0
+
+The fist stable version of Block Of is here with some changes and fixes to make the mod more stable.
+
+FIXED
+- "Cod Block Smoker Recipe" causing error. (by gamingoninsulin)
+
+CHANGED
+- Nautilus Shell Block can no longer be mined with hand.
+- Magma Cream Block hardness changed from "0.5" to "0.9"
+- All "Dye Blocks" hardness changed from "0.13" to "0.99"
+- All "Seeds Blocks" hardness change from "0.7" to "0.9"
+
+ADDED
+- Scute Block

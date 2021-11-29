@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "block_of:beetroot_seeds_block"
+          "name": "block_of:scute_block"
         }
       ],
       "conditions": [
