@@ -1,8 +1,8 @@
 {
   "meat": {
-    "subtitles": "subtitles.meat",
+    "subtitles": "subtitles.rickroll",
     "sounds": [
-      "block_of:meat"
+      "block_of:rickroll"
     ]
   }
 }

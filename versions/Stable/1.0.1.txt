@@ -1,8 +1,16 @@
 Block Of... - 1.0.1
 
-I forgot to add Scute Block's data and assets, sorry.
+A lot of fixes and some changes.
 
 FIXED
 - Scute Block doesn't have a texture.
 - Scute Block doesn't have a recipe.
 - Scute Block doesn't drop when mined.
+
+- Nautilus Shell can be mined with hand
+
+CHANGES
+- Nautilus Shell Block's hardness changed from "5" to "8".
+
+ADDED
+- Added map-color for Scute Block.

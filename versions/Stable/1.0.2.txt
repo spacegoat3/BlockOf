@@ -1,0 +1,6 @@
+Block Of... - 1.0.2
+
+CHANGES
+
+- Glow Berrie Block texture changed.
+- Glowing Ink sac Block texture changed.

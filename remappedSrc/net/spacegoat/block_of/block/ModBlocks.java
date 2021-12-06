@@ -99,9 +99,8 @@ public class ModBlocks {
                     (BlockSoundGroup.CORAL).breakByTool(FabricToolTags.PICKAXES).hardness(2)
                     .mapColor(DyeColor.WHITE)));
     public static final Block SCUTE_BLOCK = registerBlock("scute_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(7.5f)
-                    .breakByTool(FabricToolTags.PICKAXES, 0).sounds(BlockSoundGroup.BONE)
-                    .hardness(7.5f).requiresTool().mapColor(MapColor.EMERALD_GREEN)));
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5).breakByHand(false)
+                    .breakByTool(FabricToolTags.PICKAXES, 0).sounds(BlockSoundGroup.BONE)));
 
     //PLANT BASED
     public static final Block APPLE_BLOCK = registerBlock("apple_block",
@@ -194,9 +193,9 @@ public class ModBlocks {
                     BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS, 0)
                     .mapColor(MapColor.DARK_RED)));
     public static final Block NAUTILUS_SHELL_BLOCK = registerBlock("nautilus_shell_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(8).requiresTool().sounds(
-                    BlockSoundGroup.BONE).breakByTool(FabricToolTags.PICKAXES)
-                    .mapColor(MapColor.PALE_YELLOW).hardness(8)));
+            new Block(FabricBlockSettings.of(Material.STONE).strength(7).breakByHand(true).sounds(
+                    BlockSoundGroup.BONE).breakByTool(FabricToolTags.PICKAXES).hardness(4)
+                    .mapColor(MapColor.PALE_YELLOW)));
     public static final Block FERMENTED_SPIDER_EYE_BLOCK = registerBlock("fermented_spider_eye_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(1).breakByHand(true).sounds(
                     BlockSoundGroup.SLIME).breakByTool(FabricToolTags.SHOVELS)

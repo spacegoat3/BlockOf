@@ -75,6 +75,9 @@
   "block.block_of.melon_seeds_block": "Block of Melon Seeds",
   "block.block_of.beetroot_seeds_block": "Block of Beetroot Seeds",
   "block.block_of.cocoa_beans_block": "Block of Cocoa Beans",
+  "block.block_of.easter_egg": "Easter Egg",
 
-  "block_of.credits": "Credits"
+  "block_of.credits": "Credits",
+
+  "block_of.rickroll": "You just got Rickrolled!"
 }

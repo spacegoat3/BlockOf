@@ -76,5 +76,18 @@
   "block.block_of.beetroot_seeds_block": "Block of Beetroot Seeds",
   "block.block_of.cocoa_beans_block": "Block of Cocoa Beans",
 
-  "block_of.credits": "Credits"
+  "block.block_of.easter_egg": "Easter Egg",
+
+  "block.block_of.burned_beef_block": "Burned Beef Block",
+  "block.block_of.burned_chicken_block": "Burned Chicken Block",
+  "block.block_of.burned_rabbit_block": "Burned Rabbit Block",
+  "block.block_of.burned_salmon_block": "Burned Salmon Block",
+  "block.block_of.burned_cod_block": "Burned Cod Block",
+  "block.block_of.burned_kelp_block": "Burned Kelp Block",
+  "block.block_of.burned_porkchop_block": "Burned Porkchop Block",
+  "block.block_of.burned.mutton_block": "Burned Mutton Block",
+
+  "block_of.credits": "Credits",
+
+  "block_of.rickroll": "You just got Rickrolled!"
 }
