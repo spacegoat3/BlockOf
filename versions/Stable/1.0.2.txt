@@ -1,6 +1,20 @@
 Block Of... - 1.0.2
 
+Small texture changes to make some blocks look more smooth and light.
+
+NOTE: This may be a small update, but it is highly recommended using this version because of
+the weird and broken textures of the old versions.
+
 CHANGES
 
-- Glow Berrie Block texture changed.
-- Glowing Ink sac Block texture changed.
+Blocks that are textures changed:
+
+- Glow Berrie Block
+- Glow Inksac Block
+- Golden Apple Block
+- Golden Carrot Block
+- Gunpowder Block
+- Carrot Block
+
+
+
