@@ -1,6 +1,4 @@
 {
-  "sounds.block_of.meat": "Meat",
-
   "block.block_of.leather_block": "Block of Leather",
   "block.block_of.r_hide_block": "Block of Rabbit Hide",
   "block.block_of.beef_block": "Block of Raw Beef",
@@ -75,9 +73,13 @@
   "block.block_of.melon_seeds_block": "Block of Melon Seeds",
   "block.block_of.beetroot_seeds_block": "Block of Beetroot Seeds",
   "block.block_of.cocoa_beans_block": "Block of Cocoa Beans",
-  "block.block_of.easter_egg": "Easter Egg",
 
-  "block_of.credits": "Credits",
+  "curseforge.page": "CurseForge Page",
+  "modrinth.page": "Modrinth Page",
 
-  "block_of.rickroll": "You just got Rickrolled!"
+  "text.autoconfig.block_of.title": "Block Of... Config",
+  "text.autoconfig.block_of.option.general.enableBambooBlockFuel": "Enable Bamboo Block Fuel",
+  "text.autoconfig.block_of.option.general.enableCharcoalBlockFuel": "Enable Charcoal Block Fuel",
+  "text.autoconfig.block_of.option.general.enableFireproofBlocks": "Enable Fireproof Blocks",
+  "text.autoconfig.block_of.option.general.enableGlowingBlocks": "Enable Glowing Blocks"
 }

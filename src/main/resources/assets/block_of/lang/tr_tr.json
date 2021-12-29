@@ -1,6 +1,4 @@
 {
-  "sounds.block_of.meat": "Et",
-
   "block.block_of.leather_block": "Deri Bloğu",
   "block.block_of.r_hide_block": "Tavşan Postu Bloğu",
   "block.block_of.beef_block": "Çiğ Sığır Bloğu",
@@ -73,5 +71,8 @@
   "block.block_of.pumpkin_seeds_block": "Kabak Çekirdeği Bloğu",
   "block.block_of.melon_seeds_block": "Karpuz Tohumları Bloğu",
   "block.block_of.beetroot_seeds_block": "Pancar Tohumları Bloğu",
-  "block.block_of.cocoa_beans_block": "Kakao Çekirdekleri Bloğu"
+  "block.block_of.cocoa_beans_block": "Kakao Çekirdekleri Bloğu",
+
+  "curseforge.page": "CurseForge Sayfası",
+  "modrinth.page": "Modrinth Sayfası"
 }

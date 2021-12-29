@@ -10,8 +10,7 @@
     "u/STARRYSOCK"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/block-of",
-    "sources": "https://github.com/spacegoat3/BlockOf",
+    "homepage": "https://github.com/spacegoat3/BlockOf",
     "issues": "https://github.com/spacegoat3/BlockOf/issues"
   },
 
@@ -22,12 +21,27 @@
   "entrypoints": {
     "main": [
       "net.spacegoat.block_of.BlockOf"
+    ],
+    "modmenu": [
+      "net.spacegoat.block_of.ModMenuIntegration"
     ]
   },
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": ">=1.17",
+    "minecraft": ["1.17", "1.17.x", "1.18", "1.18.x"],
+    "cloth-config2": ">=5.0.34",
     "java": ">=16"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+       "links": {
+         "curseforge.page": "https://www.curseforge.com/minecraft/mc-mods/block-of",
+         "modrinth.page": "https://modrinth.com/mod/blockof"
+       }
+    }
   }
 }

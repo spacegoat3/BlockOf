@@ -12,7 +12,6 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.spacegoat.block_of.BlockOf;
-import org.lwjgl.system.CallbackI;
 
 public class ModBlocks {
     public static final Block LATHER_BLOCK = registerBlock("leather_block",
@@ -90,10 +89,6 @@ public class ModBlocks {
     public static final Block INKSAC_BLOCK = registerBlock("inksac_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).strength(1).breakByHand(true).breakByTool(
                     FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.SLIME).mapColor(DyeColor.GRAY)));
-    public static final Block GLOW_INKSAC_BLOCK = registerBlock("glow_inksac_block",
-            new Block(FabricBlockSettings.of(Material.SPONGE).strength(1).breakByHand(true).breakByTool(
-                    FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.SLIME).luminance(11)
-                    .mapColor(MapColor.CYAN)));
     public static final Block EGG_BLOCK = registerBlock("egg_block",
             new Block(FabricBlockSettings.of(Material.WOOL).strength(3).breakByHand(true).sounds
                     (BlockSoundGroup.CORAL).breakByTool(FabricToolTags.PICKAXES).hardness(2)
@@ -148,10 +143,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.WOOD).strength(1)
                     .breakByHand(true).breakByTool(FabricToolTags.AXES, 0).
                     sounds(BlockSoundGroup.FUNGUS).mapColor(MapColor.PURPLE)));
-    public static final Block GLOW_B_BLOCK = registerBlock("glow_b_block",
-            new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1).breakByHand(true)
-                    .breakByTool(FabricToolTags.HOES, 0).sounds(BlockSoundGroup.FUNGUS)
-                    .luminance(14).mapColor(MapColor.TERRACOTTA_YELLOW)));
     public static final FallingBlock SUGAR_BLOCK = registerFallingBlock("sugar_block",
             new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(1).breakByHand(true)
                     .breakByTool(FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.SAND)

@@ -1,9 +1,9 @@
 package net.spacegoat.block_of.block;
 
-import net.minecraft.block.Block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
+import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -14,7 +14,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.spacegoat.block_of.BlockOf;
 
-public class FireproofBlocks {
+public class NonFireproofBlocks {
+
     private static final Block MAGMA_C_BLOCK = registerBlock("magma_c_block",
             new Block(FabricBlockSettings.of(Material.SPONGE).breakByHand(true).breakByTool(
                             FabricToolTags.SHOVELS, 0).sounds(BlockSoundGroup.SLIME).hardness(3).strength(0.9f)
@@ -40,10 +41,10 @@ public class FireproofBlocks {
 
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registry.ITEM, new Identifier(BlockOf.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(ItemGroup.DECORATIONS).fireproof()));
+                new BlockItem(block, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
     }
 
-    public static void registerFireproofBlocks() {
+    public static void registerNonFireproofBlocks() {
         System.out.println("registering fireproof blocks for" + BlockOf.MOD_ID);
     }
 }

@@ -1,6 +1,4 @@
 {
-  "sounds.block_of.meat": "Meat",
-
   "block.block_of.leather_block": "Block of Leather",
   "block.block_of.r_hide_block": "Block of Rabbit Hide",
   "block.block_of.beef_block": "Block of Raw Beef",
@@ -76,18 +74,12 @@
   "block.block_of.beetroot_seeds_block": "Block of Beetroot Seeds",
   "block.block_of.cocoa_beans_block": "Block of Cocoa Beans",
 
-  "block.block_of.easter_egg": "Easter Egg",
+  "curseforge.page": "CurseForge Page",
+  "modrinth.page": "Modrinth Page",
 
-  "block.block_of.burned_beef_block": "Burned Beef Block",
-  "block.block_of.burned_chicken_block": "Burned Chicken Block",
-  "block.block_of.burned_rabbit_block": "Burned Rabbit Block",
-  "block.block_of.burned_salmon_block": "Burned Salmon Block",
-  "block.block_of.burned_cod_block": "Burned Cod Block",
-  "block.block_of.burned_kelp_block": "Burned Kelp Block",
-  "block.block_of.burned_porkchop_block": "Burned Porkchop Block",
-  "block.block_of.burned.mutton_block": "Burned Mutton Block",
-
-  "block_of.credits": "Credits",
-
-  "block_of.rickroll": "You just got Rickrolled!"
+  "text.autoconfig.block_of.title": "Block Of... Config",
+  "text.autoconfig.block_of.option.general.enableBambooBlockFuel": "Enable Bamboo Block Fuel",
+  "text.autoconfig.block_of.option.general.enableCharcoalBlockFuel": "Enable Charcoal Block Fuel",
+  "text.autoconfig.block_of.option.general.enableFireproofBlocks": "Enable Fireproof Blocks",
+  "text.autoconfig.block_of.option.general.enableGlowingBlocks": "Enable Glowing Blocks"
 }
