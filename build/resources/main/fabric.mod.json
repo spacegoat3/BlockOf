@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "block_of",
-  "version": "1.0.2",
+  "version": "1.0.4",
 
   "name": "Block Of...",
   "description": "Adds new blocks to the game that is similar to Dried Kelp Block from Vanilla Minecraft. Those blocks can be used for decoration and storage purposes.",

@@ -1,4 +1,4 @@
-package net.spacegoat.block_of.block;
+package net.spacegoat.block_of.blocks;
 
 import net.minecraft.block.Block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

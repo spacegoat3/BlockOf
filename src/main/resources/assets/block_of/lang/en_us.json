@@ -78,8 +78,22 @@
   "modrinth.page": "Modrinth Page",
 
   "text.autoconfig.block_of.title": "Block Of... Config",
-  "text.autoconfig.block_of.option.general.enableBambooBlockFuel": "Enable Bamboo Block Fuel",
-  "text.autoconfig.block_of.option.general.enableCharcoalBlockFuel": "Enable Charcoal Block Fuel",
-  "text.autoconfig.block_of.option.general.enableFireproofBlocks": "Enable Fireproof Blocks",
-  "text.autoconfig.block_of.option.general.enableGlowingBlocks": "Enable Glowing Blocks"
+  "text.autoconfig.block_of.category.gameplay": "Gameplay",
+  "text.autoconfig.block_of.category.blocks": "Blocks",
+  "text.autoconfig.block_of.category.default": "Categories",
+
+  "text.autoconfig.block_of.option.Categories.enableAnimalBasedBlocks": "Animal Based Blocks",
+  "text.autoconfig.block_of.option.Categories.enablePlantBasedBlocks": "Plant Based Blocks",
+  "text.autoconfig.block_of.option.Categories.enableMaterialBasedBlocks": "Material Based Blocks",
+  "text.autoconfig.block_of.option.Categories.enableOtherBasedBlocks": "Other Based Blocks",
+  "text.autoconfig.block_of.option.Categories.enableDyeBlocks": "Dye Blocks",
+  "text.autoconfig.block_of.option.Categories.enableSeedBlocks": "Seed Blocks",
+
+  "text.autoconfig.block_of.option.Blocks.enableLeatherBlock": "Leather Block",
+
+  "text.autoconfig.block_of.option.Gameplay.enableBambooBlockFuel": "Bamboo Block Fuel",
+  "text.autoconfig.block_of.option.Gameplay.enableCharcoalBlockFuel": "Charcoal Block Fuel",
+
+  "advancements.block_of.obtain_block.title": "Block Of...",
+  "advancements.block_of.obtain_block.description": "Obtain a Block Of... Block"
 }

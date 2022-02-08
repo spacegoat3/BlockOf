@@ -6,7 +6,7 @@
   "name": "Block Of...",
   "description": "Adds new blocks to the game that is similar to Dried Kelp Block from Vanilla Minecraft. Those blocks can be used for decoration and storage purposes.",
   "authors": [
-    "spacegoat",
+    "spacegoat3",
     "u/STARRYSOCK"
   ],
   "contact": {
@@ -20,10 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.spacegoat.block_of.BlockOf"
+      "net.spacegoat.block_of.ModMain"
     ],
     "modmenu": [
-      "net.spacegoat.block_of.ModMenuIntegration"
+      "net.spacegoat.block_of.config.ModMenuIntegration"
     ]
   },
   "depends": {

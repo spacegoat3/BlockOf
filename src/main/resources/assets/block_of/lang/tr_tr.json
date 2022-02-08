@@ -74,5 +74,12 @@
   "block.block_of.cocoa_beans_block": "Kakao Çekirdekleri Bloğu",
 
   "curseforge.page": "CurseForge Sayfası",
-  "modrinth.page": "Modrinth Sayfası"
+  "modrinth.page": "Modrinth Sayfası",
+  "text.autoconfig.block_of.title": "Block Of... Config",
+  "text.autoconfig.block_of.category.gameplay": "Gameplay",
+  "text.autoconfig.block_of.category.default": "Blocks",
+  "text.autoconfig.block_of.option.Gameplay.enableBambooBlockFuel": "Enable Bamboo Block Fuel",
+  "text.autoconfig.block_of.option.Gameplay.enableCharcoalBlockFuel": "Enable Charcoal Block Fuel",
+  "advancements.block_of.obtain_block.title": "Block Of...",
+  "advancements.block_of.obtain_block.description": "Obtain a Block Of... Block"
 }
