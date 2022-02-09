@@ -24,9 +24,7 @@ public class MeatBlock extends BlockOfBlock {
         if (player.getAbilities().allowModifyWorld){
             if (playerItem.isIn(ModTags.MEAT_BLOCK_CUTTING_TOOLS)){
                 player.getInventory().insertStack(new ItemStack(block.asItem()));
-                if (!player.isCreative()) {
-                    playerItem.damage(1, player, p -> p.sendToolBreakStatus(hand));
-                }
+                playerItem.damage(1, player, p -> p.sendToolBreakStatus(hand));
             }
         }
         return ActionResult.SUCCESS;

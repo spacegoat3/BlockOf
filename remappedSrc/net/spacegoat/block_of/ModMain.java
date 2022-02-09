@@ -2,7 +2,7 @@ package net.spacegoat.block_of;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.spacegoat.block_of.blocks.ModBlocks;
+import net.spacegoat.block_of.blocks.meat.MeatBlocks;
 import net.spacegoat.block_of.config.ModConfig;
 
 public class ModMain implements ModInitializer {
@@ -10,11 +10,8 @@ public class ModMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		if (ModConfig.getConfig().Categories.enableMeatBlocks){
-			ModBlocks.MeatBlocks.registerMeatBlocks();
-		}
-		if (ModConfig.getConfig().Categories.enablePlantBlocks){
-			ModBlocks.PlantBlocks.registerPlantBlocks();
+		if (ModConfig.getConfig().Blocks.enableMeatBlocks){
+			MeatBlocks.register();
 		}
 
 		//FUEL REGISTRIES

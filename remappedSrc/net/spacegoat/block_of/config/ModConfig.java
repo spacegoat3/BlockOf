@@ -12,6 +12,17 @@ import net.spacegoat.block_of.ModMain;
 @Config.Gui.Background("block_of:textures/block/leather_block.png")
 public class ModConfig implements ConfigData {
 
+    @ConfigEntry.Gui.TransitiveObject
+    public Categories Categories = new Categories();
+
+    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Category("blocks")
+    public Blocks Blocks = new Blocks();
+
+    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Category("gameplay")
+    public Gameplay Gameplay = new Gameplay();
+
     @ConfigEntry.Gui.Excluded
     private transient static boolean registered = false;
     public static synchronized ModConfig getConfig() {
@@ -21,14 +32,11 @@ public class ModConfig implements ConfigData {
         }
         return AutoConfig.getConfigHolder(ModConfig.class).getConfig();
     }
-
-    @ConfigEntry.Gui.TransitiveObject
-    public Categories Categories = new Categories();
     public static class Categories {
         @ConfigEntry.Gui.RequiresRestart
-        public boolean enableMeatBlocks = true;
+        public boolean enableAnimalBasedBlocks = true;
         @ConfigEntry.Gui.RequiresRestart
-        public boolean enablePlantBlocks = true;
+        public boolean enablePlantBasedBlocks = true;
         @ConfigEntry.Gui.RequiresRestart
         public boolean enableMaterialBasedBlocks = true;
         @ConfigEntry.Gui.RequiresRestart
@@ -38,9 +46,9 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         public boolean enableSeedBlocks = true;
     }
-    @ConfigEntry.Gui.TransitiveObject
-    @ConfigEntry.Category("gameplay")
-    public Gameplay Gameplay = new Gameplay();
+    public static class Blocks {
+        public boolean enableMeatBlocks = true;
+    }
     public static class Gameplay {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Requires 'enableBambooBlock'")
@@ -48,15 +56,5 @@ public class ModConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         @Comment("Requires 'enableCharcoalBlock'")
         public boolean enableCharcoalBlockFuel = true;
-    }
-    @ConfigEntry.Gui.TransitiveObject
-    @ConfigEntry.Category("blocks")
-    public BlocksConfig BlocksConfig = new BlocksConfig();
-    public static class BlocksConfig {
-        @Comment("The amount of light Glowing Inksac Block emits. Min: 0 - Max: 20")
-        @ConfigEntry.BoundedDiscrete(min = 0, max = 20)
-        public int glowingInksacBlockLightLevel = 2;
-        public int glowBerrieBlockLightLevel = 2;
-        public int amethystShardBlockLightLevel = 1;
     }
 }
